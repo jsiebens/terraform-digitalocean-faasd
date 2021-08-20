@@ -23,7 +23,7 @@ resource "digitalocean_droplet" "faasd" {
   region   = var.region
   size     = var.droplet_size
   ssh_keys = var.ssh_keys
-  tags     = ["faasd", var.name]
+  tags     = var.tags
   vpc_uuid = var.vpc_uuid
 
   user_data = templatefile("${path.module}/templates/startup.sh", local.user_data_vars)

@@ -28,6 +28,12 @@ variable "email" {
   default     = ""
 }
 
+variable "tags" {
+  description = "A list of the tags to be applied to this Droplet."
+  type        = list(string)
+  default     = ["faasd"]
+}
+
 variable "region" {
   description = "The region in which all DigitalOcean resources will be launched."
   type        = string
