@@ -72,3 +72,9 @@ module "faasd" {
 | gateway\_url | The url of the faasd gateway |
 | ipv4\_address | The public IP address of the faasd droplet |
 <!-- END_TF_DOCS -->
+
+## See Also
+
+- [faasd on Google Cloud Platform](https://github.com/jsiebens/terraform-google-faasd)
+- [faasd on DigitalOcean](https://github.com/jsiebens/terraform-digitalocean-faasd)
+- [faasd on Equinix Metal](https://github.com/jsiebens/terraform-equinix-faasd)
